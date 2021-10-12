@@ -38,6 +38,7 @@ a:hover {
     border-radius: 12px;
     padding: 25px 15px;
     box-shadow: 0 0 10px black;
+    overflow-y: auto;
 }
 
 @media(max-width:991px) {

@@ -3,25 +3,100 @@ import './roadmap.css'
 
 function Roadmap() {
     return (
-        <div>
-            <div class="property-card">
-            <a href="#">
-            <div class="property-image">
-                <div class="property-image-title">
-                <h5>Card Title</h5> 
-                </div>
+        <div className='roadmap-cards'>
+            <div className="roadmap-card">
+
+                    <div className="blog-card spring-fever">
+                    <div className="title-content">
+                        <h3><a href="#">10 inspiring photos</a></h3>
+                        {/* <div className="intro"> <a href="#">Inspiration</a> </div> */}
+                    </div>
+                    <div className="card-info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+                        <a href="#"><span className="licon icon-arr icon-black"></span></a>
+                    </div>
+                    <div className="utility-info">
+                        <ul className="utility-list">
+                        <li><span className="licon icon-like"></span><a href="#">2</a></li>
+                        <li><span className="licon icon-com"></span><a href="#">12</a></li>
+                        <li><span className="licon icon-dat"></span>03 jun 2017</li>
+                        <li><span className="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
+                        </ul>
+                    </div>
+                    <div className="gradient-overlay"></div>
+                    <div className="color-overlay"></div>
+                    </div>
             </div>
-            </a>
-    <div class="property-description">
-      <h5> Card Title </h5>
-      <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
-    </div>
-    <a href="#">
-      <div class="property-social-icons">
-        {/* <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions --> */}
-      </div>
-    </a>
-  </div>
+            <div className="roadmap-card">
+
+                    <div className="blog-card spring-fever">
+                    <div className="title-content">
+                        <h3><a href="#">10 inspiring photos</a></h3>
+                        {/* <div className="intro"> <a href="#">Inspiration</a> </div> */}
+                    </div>
+                    <div className="card-info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+                        <a href="#"><span className="licon icon-arr icon-black"></span></a>
+                    </div>
+                    <div className="utility-info">
+                        <ul className="utility-list">
+                        <li><span className="licon icon-like"></span><a href="#">2</a></li>
+                        <li><span className="licon icon-com"></span><a href="#">12</a></li>
+                        <li><span className="licon icon-dat"></span>03 jun 2017</li>
+                        <li><span className="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
+                        </ul>
+                    </div>
+                    <div className="gradient-overlay"></div>
+                    <div className="color-overlay"></div>
+                    </div>
+            </div>
+            <div className="roadmap-card">
+
+                    <div className="blog-card spring-fever">
+                    <div className="title-content">
+                        <h3><a href="#">10 inspiring photos</a></h3>
+                        {/* <div className="intro"> <a href="#">Inspiration</a> </div> */}
+                    </div>
+                    <div className="card-info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+                        <a href="#"><span className="licon icon-arr icon-black"></span></a>
+                    </div>
+                    <div className="utility-info">
+                        <ul className="utility-list">
+                        <li><span className="licon icon-like"></span><a href="#">2</a></li>
+                        <li><span className="licon icon-com"></span><a href="#">12</a></li>
+                        <li><span className="licon icon-dat"></span>03 jun 2017</li>
+                        <li><span className="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
+                        </ul>
+                    </div>
+                    <div className="gradient-overlay"></div>
+                    <div className="color-overlay"></div>
+                    </div>
+            </div>
+            <div className="roadmap-card">
+
+                    <div className="blog-card spring-fever">
+                    <div className="title-content">
+                        <h3><a href="#">10 inspiring photos</a></h3>
+                        {/* <div className="intro"> <a href="#">Inspiration</a> </div> */}
+                    </div>
+                    <div className="card-info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+                        <a href="#"><span className="licon icon-arr icon-black"></span></a>
+                    </div>
+                    <div className="utility-info">
+                        <ul className="utility-list">
+                        <li><span className="licon icon-like"></span><a href="#">2</a></li>
+                        <li><span className="licon icon-com"></span><a href="#">12</a></li>
+                        <li><span className="licon icon-dat"></span>03 jun 2017</li>
+                        <li><span className="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
+                        </ul>
+                    </div>
+                    <div className="gradient-overlay"></div>
+                    <div className="color-overlay"></div>
+                    </div>
+            </div>
+
         </div>
     )
 }
