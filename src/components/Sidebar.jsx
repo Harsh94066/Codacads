@@ -1,20 +1,21 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import './Sidebar.css';
 // import mightycoder from '../assets/mightycoder.svg'
 
 
 const Sidebar = () => {
-    const handleEmailMe = () => {
-        window.open("mailto:codesumax@gmail.com")
-    }
+    // const handleEmailMe = () => {
+    //     window.open("mailto:codesumax@gmail.com")
+    // }
     return (
         <div className="sidebar">
             {/* <img src={mightycoder} alt="avatar" className="sidebar__avatar" /> */}
-            <div className="sidebar__title">Codacads</div>
+            <NavLink to= '/'><div className="sidebar__title">Codacads</div></NavLink>
             <div className="sidebar__item">
                 Web Developer
             </div>
-            <div className="sidebar_elements">Roadmap</div>
+            <NavLink to='/roadmap'><div className="sidebar_elements">Roadmap</div></NavLink>
             <div className="sidebar_elements">Practice & Learn</div>
             <div className="sidebar_elements">Key Points</div>
             <div className="sidebar_elements">Help</div>
