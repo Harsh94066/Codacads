@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import './Card.css'
 
 const Card = (props) => {
@@ -6,17 +7,18 @@ const Card = (props) => {
         <>
             <div className="roadmap-card">
 
-                <div className="blog-card spring-fever">
-                    <div className="title-content">
-                        <h3>{props.title}</h3>
+                <NavLink to="/roadmap/c">
+                    <div className="blog-card spring-fever">
+                        <div className="title-content">
+                            <h3>{props.title}</h3>
+                        </div>
+                        <div className="card-info">
+                            {props.defination}
+                        </div>
+                        <div className="gradient-overlay"></div>
+                        <div className="color-overlay"></div>
                     </div>
-                    <div className="card-info">
-                        {props.defination}
-                    </div>
-                    <div className="gradient-overlay"></div>
-                    <div className="color-overlay"></div>
-                </div>
-
+                </NavLink>
             </div>
         </>
     )
