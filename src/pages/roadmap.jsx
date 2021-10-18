@@ -1,108 +1,29 @@
 import React from 'react'
-import './roadmap.css'
+import Card from '../components/Card';
+import './Roadmap.css'
+
 
 function Roadmap() {
     return (
         <div className='roadmap-cards'>
-
-            <div className="roadmap-card">
-
-                <div className="blog-card spring-fever">
-                    <div className="title-content">
-                        <h3><a href="#">10 inspiring photos</a></h3>
-                        {/* <div className="intro"> <a href="#">Inspiration</a> </div> */}
-                    </div>
-                    <div className="card-info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...
-                        <a href="#"><span className="licon icon-arr icon-black"></span></a>
-                    </div>
-                    <div className="utility-info">
-                        <ul className="utility-list">
-                            <li><span className="licon icon-like"></span><a href="#">2</a></li>
-                            <li><span className="licon icon-com"></span><a href="#">12</a></li>
-                            <li><span className="licon icon-dat"></span>03 jun 2017</li>
-                            <li><span className="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
-                        </ul>
-                    </div>
-                    <div className="gradient-overlay"></div>
-                    <div className="color-overlay"></div>
-                </div>
-            </div>
-
-            <div className="roadmap-card">
-
-                <div className="blog-card spring-fever">
-                    <div className="title-content">
-                        <h3><a href="#">10 inspiring photos</a></h3>
-                        {/* <div className="intro"> <a href="#">Inspiration</a> </div> */}
-                    </div>
-                    <div className="card-info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...
-                        <a href="#"><span className="licon icon-arr icon-black"></span></a>
-                    </div>
-                    <div className="utility-info">
-                        <ul className="utility-list">
-                            <li><span className="licon icon-like"></span><a href="#">2</a></li>
-                            <li><span className="licon icon-com"></span><a href="#">12</a></li>
-                            <li><span className="licon icon-dat"></span>03 jun 2017</li>
-                            <li><span className="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
-                        </ul>
-                    </div>
-                    <div className="gradient-overlay"></div>
-                    <div className="color-overlay"></div>
-                </div>
-            </div>
-
-            <div className="roadmap-card">
-
-                <div className="blog-card spring-fever">
-                    <div className="title-content">
-                        <h3><a href="#">10 inspiring photos</a></h3>
-                        {/* <div className="intro"> <a href="#">Inspiration</a> </div> */}
-                    </div>
-                    <div className="card-info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...
-                        <a href="#"><span className="licon icon-arr icon-black"></span></a>
-                    </div>
-                    <div className="utility-info">
-                        <ul className="utility-list">
-                            <li><span className="licon icon-like"></span><a href="#">2</a></li>
-                            <li><span className="licon icon-com"></span><a href="#">12</a></li>
-                            <li><span className="licon icon-dat"></span>03 jun 2017</li>
-                            <li><span className="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
-                        </ul>
-                    </div>
-                    <div className="gradient-overlay"></div>
-                    <div className="color-overlay"></div>
-                </div>
-            </div>
-
-            <div className="roadmap-card">
-
-                <div className="blog-card spring-fever">
-                    <div className="title-content">
-                        <h3><a href="#">10 inspiring photos</a></h3>
-                        {/* <div className="intro"> <a href="#">Inspiration</a> </div> */}
-                    </div>
-                    <div className="card-info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...
-                        <a href="#"><span className="licon icon-arr icon-black"></span></a>
-                    </div>
-                    <div className="utility-info">
-                        <ul className="utility-list">
-                            <li><span className="licon icon-like"></span><a href="#">2</a></li>
-                            <li><span className="licon icon-com"></span><a href="#">12</a></li>
-                            <li><span className="licon icon-dat"></span>03 jun 2017</li>
-                            <li><span className="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
-                        </ul>
-                    </div>
-                    <div className="gradient-overlay"></div>
-                    <div className="color-overlay"></div>
-                </div>
-            </div>
-
+            <Card
+                title="C"
+                defination="C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system."
+            />
+            <Card
+                title="C++"
+                defination="C++ is a general purpose, case-sensitive, free-form programming language that supports object-oriented, procedural and generic programming."
+            />
+            <Card
+                title="DSA"
+                defination="Data structures are objects generated to store data and algorithms are a set of instructions to perform specific task by using the data structures."
+            />
+            <Card
+                title="Full Stack Development"
+                defination="It refers to the development of both front end(client side) and back end(server side) portions of web application."
+            />
         </div>
     )
 }
 
-export default Roadmap
+export default Roadmap;
