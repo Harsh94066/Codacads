@@ -6,8 +6,7 @@ const Card = (props) => {
     return (
         <>
             <div className="roadmap-card">
-
-                <NavLink to="/roadmap/cpp">
+                <NavLink to={props.link}>
                     <div className="blog-card spring-fever">
                         <div className="title-content">
                             <h3>{props.title}</h3>
