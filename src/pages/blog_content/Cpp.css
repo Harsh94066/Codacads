@@ -21,11 +21,6 @@ ul > li{
     margin-left: 1rem;
 }
 
-hr{
-    background-color:rgba(0, 0, 0, 0.527);
-    height: .1rem;
-}
-
 .para{
     font-size: 1.1rem; 
     font-Weight: bold;
