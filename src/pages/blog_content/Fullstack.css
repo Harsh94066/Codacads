@@ -1,0 +1,76 @@
+.website_theme{
+    padding: 1em 2em;
+}
+
+ul > li{
+    margin-top: .7em;
+    margin-left: -1em; 
+ }
+ 
+ .section{
+     margin-top: 3em;
+ }
+ 
+ /*hr{
+    background-color:rgba(0, 0, 0, 0.527);
+    height: .1rem;
+}*/
+ 
+ .section > p, .section > ul{
+     margin-left: 1rem;
+ }
+ 
+ 
+ .website_theme h1 h2{
+     font-size: 3.5rem;
+     margin: auto;
+     font-weight: 300;
+ }
+ 
+ .p-bullets> li{
+     margin-left: -1rem;
+ }
+ 
+ 
+ h4{
+     margin-top: 3rem;
+     margin-left: 0rem;
+     font-size: 1.5rem;
+     font-weight: 500;
+     margin-bottom: 1em;
+ }
+ 
+ .h5-after-margin{
+     margin-left: 1.5rem;
+ }
+
+ .headings {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+ }
+
+ .tip {
+     margin-bottom: 3rem;
+ }
+
+ .front_end {
+    margin-top: 3rem;
+}
+
+section > h5{
+    margin-left: 0rem;
+}
+
+h2 {
+    margin-top: 4rem;
+}
+
+h5 {
+    margin-top: 3rem;
+}
+
+.fe-list {
+    margin-left: -2.5rem;
+}
