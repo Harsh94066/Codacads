@@ -1,0 +1,43 @@
+.website_theme{
+    padding: 1em 2em;
+}
+
+ul > li{
+   margin-top: .7em;
+   margin-left: -1em; 
+}
+
+.section{
+    margin-top: 3em;
+}
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.76) ;
+}
+
+.section > p, .section > ul{
+    margin-left: 1rem;
+}
+
+
+.website_theme h1{
+    font-size: 3.5rem;
+    margin: auto;
+    font-weight: 300;
+}
+
+.p-bullets> li{
+    margin-left: -1rem;
+}
+
+
+h5{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.h5-after-margin{
+    margin-left: 1.5rem;
+}

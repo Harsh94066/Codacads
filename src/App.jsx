@@ -7,6 +7,7 @@ import Cpp from './pages/blog_content/Cpp';
 import DSA from './pages/blog_content/DSA';
 import Fullstack from './pages/blog_content/Fullstack';
 import Roadmap from './pages/Roadmap';
+// import '../node_modules/bootswatch/dist/minty/bootstrap.min.css'
 
 function App() {
   return (
