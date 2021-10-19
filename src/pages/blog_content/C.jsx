@@ -165,7 +165,7 @@ const C = () => {
               <h2>C Format Specifier</h2>
               <hr />
               <p>The Format specifier is a string used in the formatted input and output functions. <br />For more understanding you can refer <a href="https://www.javatpoint.com/c-format-specifier" target="_blank"> this blog. </a> </p>
-              <p style={{ fontSize: "19px", fontWeight: "bold", marginBottom: "0.2rem" }}>Read and try the various sections as following:</p>
+              <h5>Read and try the various sections as following:</h5>
               <ul>
                 <li ><a href="https://www.javatpoint.com/constants-in-c" target="_blank"> C constants </a></li>
                 <li ><a href="https://www.javatpoint.com/literals-in-c" target="_blank"> C literals </a></li>
@@ -177,7 +177,7 @@ const C = () => {
             <section className="section">
               <h2> C Control Statement</h2>
               <hr />
-              <p style={{ fontWeight: "bold"}}>There are four types of control statements:</p>
+              <p>There are four types of control statements:</p>
               <ul >
                 <li >Sequential control statements</li>
                 <li >Conditional/Decision control statements</li>
