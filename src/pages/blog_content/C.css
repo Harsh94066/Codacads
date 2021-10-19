@@ -11,14 +11,6 @@ ul > li{
     margin-top: 3em;
 }
 
-<<<<<<< HEAD
-hr{
-    background-color:rgba(0, 0, 0, 0.527);
-    height: .1rem;
-}
-
-=======
->>>>>>> e36cf9b545b2078ece49fa3d5fa26698b0b19e36
 .section > p, .section > ul{
     margin-left: 1rem;
 }
