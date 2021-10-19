@@ -46,3 +46,10 @@ a:hover {
         margin: 30px 0;
     }
 }
+
+
+hr{
+    background-color:rgba(0, 0, 0, 0.527);
+    height: .1rem;
+    margin-bottom: 2rem;
+}
