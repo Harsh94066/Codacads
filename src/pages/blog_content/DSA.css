@@ -2,17 +2,44 @@
     padding: 1em 2em;
 }
 
-
-.section{
+.section
+{
     margin-top: 3em;
 }
 
-
-.section > ul > li {
-    margin-bottom: 10rem;
+h5
+{
+    margin-left: 1px;
+    font-weight: bold;
 }
 
-.sub-head>li
+h3
 {
-    margin-left: 20rem;
+    font-weight:bold;
+}
+
+.sub-head>p
+{
+    margin-left: .5rem;
+}
+
+.need-points>li
+{
+  margin-left: 0rem;
+}
+
+.need-points>li>h6
+{
+    font-size:large;
+    margin-bottom: .7rem;
+}
+
+.linear-data-structures>li
+{
+    margin-left: 0rem;
+}
+
+.non-linear-data-structures
+{
+    margin-left: 1rem; 
 }
