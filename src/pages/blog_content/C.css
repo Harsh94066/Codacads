@@ -12,7 +12,8 @@ ul > li{
 }
 
 hr{
-    border: 1px solid rgba(0, 0, 0, 0.76) ;
+    background-color:rgba(0, 0, 0, 0.527);
+    height: .1rem;
 }
 
 .section > p, .section > ul{

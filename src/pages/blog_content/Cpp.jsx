@@ -1,13 +1,17 @@
 import React from 'react'
+import './Cpp.css'
+import EventNoteTwoToneIcon from '@material-ui/icons/EventNoteTwoTone';
 
 const Cpp = () => {
     return (
         <>
             <div className="website_theme">
 
-                <h1 style={{ marginBottom: "1.6rem" }}> Learn C++ </h1>
+                <h1> Learn C++ </h1>
+
                 <section className="section">
                     <h2>Why C++</h2>
+                    <hr />
                     <ul>
                         <li>It is the language allowed by all companies and competitions.</li>
                         <li>Much faster than JAVA or Python.</li>
@@ -17,7 +21,8 @@ const Cpp = () => {
 
                 <section className="section">
                     <h2> Resources for C++ </h2>
-                    <p style={{ fontSize: "18px", fontWeight: "bold" }}>Read and try the various syntax given in the following sections, from <a href="https://www.geeksforgeeks.org/c-plus-plus/" target="_blank">this tutorial :</a>  </p>
+                    <hr />
+                    <p className="para">Read and try the various syntax given in the following sections, from <a href="https://www.geeksforgeeks.org/c-plus-plus/" target="_blank">this tutorial :</a>  </p>
                     <ul>
                         <li>C++ Basic syntax</li>
                         <li>C++ Comments</li>
@@ -30,7 +35,7 @@ const Cpp = () => {
                         <li>C++ Strings</li>
                         <li>C++ Functions</li>
                     </ul>
-                    <p style={{ fontSize: "18px", fontWeight: "bold" }}>If sufficient time is available, you may also want to read the following sections :</p>
+                    <p className="para">If sufficient time is available, you may also want to read the following sections :</p>
                     <ul>
                         <li>C++ Pointers</li>
                         <li>C++ References</li>
@@ -42,8 +47,9 @@ const Cpp = () => {
 
                 <section className="section">
                     <h2>STL Tutorials</h2>
+                    <hr />
                     <div className="stl">
-                        <p style={{ marginLeft: "0rem", marginBottom: "1rem" }}><b> IMPORTANT</b></p>
+                        <h6><EventNoteTwoToneIcon />IMPORTANT</h6>
                         STL provides the ready-made implementation of some frequently used data structures and algorithms. Don’t  underestimate the power of STL !
                     </div>
                     <p>Go through <a href="https://www.geeksforgeeks.org/the-c-standard-template-library-stl/" target="_blank">this tutorial</a> once.</p>
@@ -51,6 +57,7 @@ const Cpp = () => {
 
                 <section className="section">
                     <h2>Additional Resources</h2>
+                    <hr />
                     <ul>
                         <li> <a href="https://www.hackerearth.com/practice/notes/standard-template-library/"> Hackerearth STL Tutorial</a></li>
                         <li> <a href="https://www.cplusplus.com/reference/stl/">CPP Reference STL</a> </li>
