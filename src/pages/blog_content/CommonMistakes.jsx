@@ -7,6 +7,7 @@ function CommonMistakes() {
         <div>
             <section className="section">
                     <h2 className="">Avoid common mistakes</h2>
+                    <hr/>
                     <ul>
                         <li>You must become familiar with the following :
 

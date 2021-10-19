@@ -7,6 +7,7 @@ function Fastio() {
         <div>
             <section className="section">
                     <h4 className="">Fast Input/Output</h4>
+                    <hr />
                     <ul>
                         <li>In C++, for fast input / output, while using cin and cout, use these lines :
                             <Highlight>
