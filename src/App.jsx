@@ -3,9 +3,12 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import C from './pages/blog_content/C';
+import CommonMistakes from './pages/blog_content/CommonMistakes';
 import Cpp from './pages/blog_content/Cpp';
 import DSA from './pages/blog_content/DSA';
+import Fastio from './pages/blog_content/Fastio';
 import Fullstack from './pages/blog_content/Fullstack';
+import Keypoints from './pages/Keypoints';
 import Roadmap from './pages/Roadmap';
 // import '../node_modules/bootswatch/dist/minty/bootstrap.min.css'
 
@@ -25,6 +28,9 @@ function App() {
                 <Route path='/' exact>
                   <Navbar />
                 </Route>
+                <Route path='/keypoints' exact>
+                  <Keypoints/>
+                </Route>
                 <Route path='/roadmap' exact>
                   <Roadmap />
                 </Route>
@@ -40,6 +46,13 @@ function App() {
                 <Route path='/roadmap/fullstack'>
                   <Fullstack />
                 </Route>
+                <Route path='/keypoints/fastio'>
+                  <Fastio/>
+                </Route>
+                <Route path='/keypoints/common-mistakes'>
+                  <CommonMistakes/>
+                </Route>
+
               </Switch>
             </div>
 
