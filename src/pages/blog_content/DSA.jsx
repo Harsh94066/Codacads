@@ -5,30 +5,31 @@ const DSA = () => {
         <>
             <div className="website_theme">
 
-                <h1 style={{ marginBottom: "1.6rem" }}> Learn Data Structures </h1>
+                <h1> Learn Data Structures </h1>
 
                 <section className="section">
 
                     <h3>What is Data Structure?</h3>
+                    <hr />
                     <p>A data structure is a particular way of organizing data in a computer so that it can be used effectively. For example, we can store a list of items having the same data-type using the array data structure.</p>
                     <ul>
-                        <li style={{ marginBottom: "1rem" }}>
-                            <span style={{ fontWeight: "bold", textDecoration: "underline", fontSize: "20px" }}>Types: </span><br /><p style={{ marginTop: "1.5rem", marginBottom: "3.5rem" }}><img src="/images/TypesDs.jpg" /></p>
+                        <li>
+                            <span>Types: </span><br /><p><img src="/images/TypesDs.jpg" /></p>
                         </li>
-                        <li style={{ marginBottom: "1rem" }}>
-                            <span style={{ fontWeight: "bold", textDecoration: "underline", fontSize: "20px" }}>Need For Data Structure: </span>
-                            <p style={{ marginTop: "1rem" }}> As applications are getting complexed and amount of data is increasing day by day, there may arrise the following problems:</p>
+                        <li>
+                            <h5>Need For Data Structure: </h5>
+                            <p> As applications are getting complexed and amount of data is increasing day by day, there may arrise the following problems:</p>
                             <ul type="circle">
-                                <li style={{ marginBottom: "1rem" }}>
-                                    <span style={{ fontWeight: "bold", textDecoration: "underline" }}>Processor speed:</span> To handle very large amout of data, high speed processing is required, but as the data is growing day by day to the billions of files per entity, processor may fail to deal with that much amount of data.
+                                <li>
+                                    <h6>Processor speed:</h6> To handle very large amout of data, high speed processing is required, but as the data is growing day by day to the billions of files per entity, processor may fail to deal with that much amount of data.
                                 </li>
 
-                                <li style={{ marginBottom: "1rem" }}>
-                                    <span style={{ fontWeight: "bold", textDecoration: "underline" }}>Data Search:</span> Consider an inventory size of 106 items in a store, If our application needs to search for a particular item, it needs to traverse 106 items every time, results in slowing down the search process.
+                                <li>
+                                    <h6>Data Search:</h6> Consider an inventory size of 106 items in a store, If our application needs to search for a particular item, it needs to traverse 106 items every time, results in slowing down the search process.
                                 </li>
 
-                                <li style={{ marginBottom: "1rem" }}>
-                                    <span style={{ fontWeight: "bold", textDecoration: "underline" }}>Multiple requests:</span> If thousands of users are searching the data simultaneously on a web server, then there are the chances that a very large server can be failed during that process in order to solve the above problems, data structures are used. Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.
+                                <li>
+                                    <h6>Multiple requests:</h6> If thousands of users are searching the data simultaneously on a web server, then there are the chances that a very large server can be failed during that process in order to solve the above problems, data structures are used. Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.
                                 </li>
                             </ul>
                         </li>
@@ -39,13 +40,13 @@ const DSA = () => {
 
                 <section className="section">
                     <h3>Linear Data Structure</h3>
-
+                    <hr />
                     <ul type="none">
 
                         <li>
-                            <h4>1. Arrays</h4>
-                            <ul style={{ marginBottom: "2rem" }} type="disc">
-                                <li>
+                            <h5>1. Arrays</h5>
+                            <ul type="disc" className="sub-head">
+                                <li >
                                     Arrays are defined as the collection of similar type of data items stored at contiguous memory locations.
                                 </li>
                                 <li>
@@ -55,8 +56,8 @@ const DSA = () => {
                         </li>
 
                         <li>
-                            <h4>2. Linked List</h4>
-                            <ul style={{ marginBottom: "2rem" }} type="disc">
+                            <h5>2. Linked List</h5>
+                            <ul type="disc">
                                 <li>
                                     A linked list can be defined as the collection of the nodes in which one node is connected to another node, and node consists of two parts, i.e., one is the data part and the second one is the address part.
                                 </li>
@@ -67,8 +68,8 @@ const DSA = () => {
                         </li>
 
                         <li>
-                            <h4>3. Stack</h4>
-                            <ul style={{ marginBottom: "2rem" }} type="disc">
+                            <h5>3. Stack</h5>
+                            <ul type="disc">
                                 <li> A Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle.
                                     It contains only one pointer i.e., top pointer pointing to the topmost element of the stack.
                                 </li>
@@ -82,8 +83,8 @@ const DSA = () => {
                         </li>
 
                         <li>
-                            <h4>4. Queue</h4>
-                            <ul style={{ marginBottom: "2rem" }} type="disc">
+                            <h5>4. Queue</h5>
+                            <ul type="disc">
                                 <li>
                                     A Queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR and delete operations to be performed at another end called FRONT.
                                 </li>
@@ -101,12 +102,12 @@ const DSA = () => {
 
                 <section className="section">
                     <h3>Non-Linear Data Structure</h3>
-
+                    <hr />
                     <ul type="none">
 
                         <li>
-                            <h4>1. Trees</h4>
-                            <ul style={{ marginBottom: "2rem" }} type="disc">
+                            <h5>1. Trees</h5>
+                            <ul type="disc" className="sub-head">
                                 <li>
                                     A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
                                 </li>
@@ -123,8 +124,8 @@ const DSA = () => {
                         </li>
 
                         <li>
-                            <h4>2. Graph</h4>
-                            <ul style={{ marginBottom: "2rem" }} type="disc">
+                            <h5>2. Graph</h5>
+                            <ul type="disc">
                                 <li>
                                     A graph G can be defined as an ordered set G(V, E) where V(G) represents the set of vertices and E(G) represents the set of edges which are used to connect these vertices.
                                 </li>

@@ -1,0 +1,18 @@
+.website_theme{
+    padding: 1em 2em;
+}
+
+
+.section{
+    margin-top: 3em;
+}
+
+
+.section > ul > li {
+    margin-bottom: 10rem;
+}
+
+.sub-head>li
+{
+    margin-left: 20rem;
+}
