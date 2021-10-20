@@ -6,13 +6,12 @@ ul > li{
 }
 
 .section{
-    margin-top: 3em;
+    margin-top: 2rem;
 }
 
 .section > p, .section > ul{
     margin-left: 1rem;
 }
-
 
 .website_theme h1{
     font-size: 3.5rem;
