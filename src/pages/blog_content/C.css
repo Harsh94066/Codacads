@@ -8,7 +8,7 @@ ul > li{
 }
 
 .section{
-    margin-top: 3em;
+    margin-top: 2rem;
 }
 
 .section > p, .section > ul{
@@ -30,7 +30,7 @@ ul > li{
 h5{
     margin-left: 1rem;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 200;
     margin-bottom: 1em;
 }
 
