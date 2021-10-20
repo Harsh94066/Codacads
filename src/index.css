@@ -6,6 +6,10 @@ body {
     overflow:auto;
 }
 
+.website_theme{
+    padding: 1em 2em;
+}
+
 a {
     text-decoration: none;
     color: #354548;
