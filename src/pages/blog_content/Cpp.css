@@ -1,11 +1,9 @@
-
-
 ul > li{
     margin-top: .7em;
     margin-left: -1.5em; 
  }
 
- .section{
+ .cpp{
     margin-top: 3.5rem;
 }
     
@@ -15,7 +13,7 @@ ul > li{
     font-weight: 300;
 }
 
-.section > p, .section > ul{
+.cpp > p, .cpp > ul{
     margin-left: 1rem;
 }
 

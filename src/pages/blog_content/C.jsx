@@ -9,7 +9,7 @@ const C = () => {
       <div className="website_theme">
         <h1 id="learn-c"> Learn C </h1>
 
-        <section className="section">
+        <section className="c">
           <h2>What is C?</h2>
           <hr />
           <p>C is programming language, which was developed by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A., inb 1972.
@@ -17,7 +17,7 @@ const C = () => {
           </p>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2>First C Program</h2>
           <hr />
           <p>Before starting the abcd of C language, you need to learn how to write, compile and run the first c program.
@@ -88,7 +88,7 @@ const C = () => {
 
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2 >Variables and Keywords in C</h2>
           <hr />
           <ul className='p-bullets'>
@@ -98,7 +98,7 @@ const C = () => {
           </ul>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2>Data Types</h2>
           <hr />
           <p>A data type specifies the type of data that a variable can store such as integer, floating, character, etc.
@@ -133,7 +133,7 @@ const C = () => {
           <p>For more understanding you can refer <a href="https://www.geeksforgeeks.org/data-types-in-c/" target="_blank">this gfg blog.</a></p>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2> Identifiers </h2>
           <hr />
           <p>C identifiers represent the name in the C program, for example, variables, functions, arrays, structures, unions, labels, etc.
@@ -142,14 +142,14 @@ const C = () => {
           </p>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2>Operators</h2>
           <hr />
           <p>Operators are the foundation of any programming language. Thus the functionality of C/C++ programming language is incomplete without the use of operators. <br /> For more understanding you can refer <a href="https://www.geeksforgeeks.org/operators-c-c/" target="_blank">this gfg blog.</a>
           </p>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2>Comments</h2>
           <hr />
           <p>Comments in C language are used to provide information about lines of code. It is widely used for documenting code.
@@ -157,7 +157,7 @@ const C = () => {
           </p>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2>C Format Specifier</h2>
           <hr />
           <p>The Format specifier is a string used in the formatted input and output functions. <br />For more understanding you can refer <a href="https://www.javatpoint.com/c-format-specifier" target="_blank"> this blog. </a> </p>
@@ -170,7 +170,7 @@ const C = () => {
           </ul>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2> C Control Statement</h2>
           <hr />
           <p>There are four types of control statements:</p>
@@ -183,7 +183,7 @@ const C = () => {
           <p>For more understanding you can refer this <a href="https://www.javatpoint.com/c-if-else" target="_blank">C control statements</a></p>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2>C Functions</h2>
           <hr />
           <ul className='p-bullets'>
@@ -197,7 +197,7 @@ const C = () => {
           </p>
         </section>
 
-        <section className="section">
+        <section className="c">
           <h2>Advanced concepts in C</h2>
           <hr />
           <ul className='p-bullets'>
@@ -217,4 +217,4 @@ const C = () => {
   )
 }
 
-export default C
+export default C;

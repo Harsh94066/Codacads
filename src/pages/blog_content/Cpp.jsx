@@ -9,7 +9,7 @@ const Cpp = () => {
 
                 <h1> Learn C++ </h1>
 
-                <section className="section">
+                <section className="cpp">
                     <h2>Why C++</h2>
                     <hr />
                     <ul>
@@ -19,7 +19,7 @@ const Cpp = () => {
                     </ul>
                 </section>
 
-                <section className="section">
+                <section className="cpp">
                     <h2> Resources for C++ </h2>
                     <hr />
                     <p className="para">Read and try the various syntax given in the following sections, from <a href="https://www.geeksforgeeks.org/c-plus-plus/" target="_blank">this tutorial :</a>  </p>
@@ -45,7 +45,7 @@ const Cpp = () => {
                 </section>
 
 
-                <section className="section">
+                <section className="cpp">
                     <h2>STL Tutorials</h2>
                     <hr />
                     <div className="stl">
@@ -55,7 +55,7 @@ const Cpp = () => {
                     <p>Go through <a href="https://www.geeksforgeeks.org/the-c-standard-template-library-stl/" target="_blank">this tutorial</a> once.</p>
                 </section>
 
-                <section className="section">
+                <section className="cpp">
                     <h2>Additional Resources</h2>
                     <hr />
                     <ul>
@@ -69,4 +69,4 @@ const Cpp = () => {
     );
 }
 
-export default Cpp
+export default Cpp;

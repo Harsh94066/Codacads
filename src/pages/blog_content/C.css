@@ -3,11 +3,11 @@ ul > li{
    margin-left: -1em; 
 }
 
-.section{
-    margin-top: 5rem;
+.c{
+    margin-top: 2rem;
 }
 
-.section > p, .section > ul{
+.c > p, .c > ul{
     margin-left: 1rem;
 }
 
