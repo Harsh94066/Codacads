@@ -13,7 +13,6 @@ body {
 a {
     text-decoration: none;
     color: #354548;
-
 }
 
 a:hover {
@@ -55,5 +54,6 @@ a:hover {
 hr{
     background-color:rgba(0, 0, 0, 0.527);
     height: .1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1em;
+    margin-top: 0.6em;
 }

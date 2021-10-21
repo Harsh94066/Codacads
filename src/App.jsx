@@ -19,7 +19,7 @@ function App() {
         <div className="container-main">
           <div className="row">
 
-            <div className="col-lg-3">
+            <div className="col-lg-3 app__sidebar">
               <Sidebar />
             </div>
 
@@ -29,7 +29,7 @@ function App() {
                   <Navbar />
                 </Route>
                 <Route path='/keypoints' exact>
-                  <Keypoints/>
+                  <Keypoints />
                 </Route>
                 <Route path='/roadmap' exact>
                   <Roadmap />
@@ -47,10 +47,10 @@ function App() {
                   <Fullstack />
                 </Route>
                 <Route path='/keypoints/fastio'>
-                  <Fastio/>
+                  <Fastio />
                 </Route>
                 <Route path='/keypoints/common-mistakes'>
-                  <CommonMistakes/>
+                  <CommonMistakes />
                 </Route>
 
               </Switch>

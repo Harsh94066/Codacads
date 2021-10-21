@@ -1,21 +1,19 @@
-
-
 ul > li{
     margin-top: .7em;
     margin-left: -1.5em; 
  }
 
- .section{
-     margin-top: 3.5rem;
-    }
+ .cpp{
+    margin-top: 3.5rem;
+}
     
 .website_theme h1{
-        font-size: 3.5rem;
-        margin-bottom: 0.5em;
-        font-weight: 300;
-    }
+    font-size: 3.5rem;
+    margin-bottom: 0.5em;
+    font-weight: 300;
+}
 
-.section > p, .section > ul{
+.cpp > p, .cpp > ul{
     margin-left: 1rem;
 }
 
