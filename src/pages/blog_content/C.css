@@ -1,19 +1,17 @@
-
-
 ul > li{
    margin-top: .7em;
    margin-left: -1em; 
 }
 
 .section{
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .section > p, .section > ul{
     margin-left: 1rem;
 }
 
-.website_theme h1{
+#learn-c{
     font-size: 3.5rem;
     margin: auto;
     font-weight: 300;
@@ -23,12 +21,29 @@ ul > li{
     margin-left: -1rem;
 }
 
+img{
+    margin-left: 4.5rem;
+    margin-bottom: 2.5rem;
+    height: 400px;
+    width:550px;
+}
 
-h5{
-    margin-left: 1rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 1em;
+.table{
+    margin-left: 4.5rem;
+    margin-bottom: 2.5rem;
+    width: 600px;
+    border: 2px solid black;
+}
+
+thead{
+    background-image: linear-gradient(to right bottom, #000046, #1CB5E0);
+    color: white;
+}
+
+h6{
+    text-decoration: underline;
+    margin: 1em 1em 1em;
+    font-size: 1.3rem;
 }
 
 .h5-after-margin{
