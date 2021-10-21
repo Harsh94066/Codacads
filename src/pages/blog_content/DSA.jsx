@@ -8,7 +8,7 @@ const DSA = () => {
 
                 <h1> Learn Data Structures </h1>
 
-                <section className="section">
+                <section className="dsa">
 
                     <h3>What is Data Structure?</h3>
                     <hr />
@@ -43,7 +43,7 @@ const DSA = () => {
                 </section>
 
 
-                <section className="section">
+                <section className="dsa">
                     <h3>Linear Data Structure</h3>
                     <hr />
                     <ul type="none">
@@ -105,7 +105,7 @@ const DSA = () => {
                     </ul>
                 </section>
 
-                <section className="section">
+                <section className="dsa">
                     <h3>Non-Linear Data Structure</h3>
                     <hr />
                     <ul type="none">
