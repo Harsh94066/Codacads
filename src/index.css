@@ -37,10 +37,6 @@ a:hover {
     /* background-color: #000; */
 }
 
-.app__sidebar{
-    /* position:fixed; */
-}
-
 .app__main-content {
     background-color: #fff;
     border-radius: 12px;
