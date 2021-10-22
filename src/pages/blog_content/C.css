@@ -4,7 +4,7 @@ ul > li{
 }
 
 .c{
-    margin-top: 2rem;
+    margin-top: -1.5rem;
 }
 
 .c > p, .c > ul{
@@ -40,10 +40,11 @@ thead{
     color: white;
 }
 
-h6{
+#c-h6{
     text-decoration: underline;
     margin: 1em 1em 1em;
     font-size: 1.3rem;
+    font-weight: 500;
 }
 
 .h5-after-margin{

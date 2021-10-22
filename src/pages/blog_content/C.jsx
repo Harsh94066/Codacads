@@ -23,8 +23,8 @@ const C = () => {
           <p>Before starting the abcd of C language, you need to learn how to write, compile and run the first c program.
             To write the first c program, open the C console and write the following code:
           </p>
-          <div>
-            <Highlight className="highlight">
+          <div className="highlight">
+            <Highlight>
               {`
           #include < stdio.h >
           
@@ -42,7 +42,7 @@ const C = () => {
             <li><b>int main():</b> The main() function is the entry point of every program in c language.</li>
             <li><b>return 0:</b> The return 0 statement, returns execution status to the OS. </li>
           </ul>
-          <h6>printf() and scanf() in C</h6>
+          <h6 id="c-h6">printf() and scanf() in C</h6>
           <div className="h5-after-margin">
 
             <p>The printf() and scanf() functions are used for input and output in C language. Both functions are inbuilt library functions, defined in stdio.h (header file).</p>
@@ -59,7 +59,7 @@ const C = () => {
               </li>
             </ul>
           </div>
-          <h6>Program to print cube of given number</h6>
+          <h6 id="c-h6">Program to print cube of given number</h6>
           <div>
             <Highlight>
               {`
