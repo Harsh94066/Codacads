@@ -6,7 +6,7 @@ const DSA = () => {
         <>
             <div className="website_theme">
 
-                <h1> Learn Data Structures </h1>
+                <h1 id="learn-dsa"> Learn Data Structures </h1>
 
                 <section className="dsa">
 
@@ -16,25 +16,25 @@ const DSA = () => {
 
                     <ul>
                         <li>
-                            <h5>Types:</h5> <img src="/images/TypesDs.jpg" />
+                            <h5 className="dsa-h5">Types:</h5> <img id="dsa-types" src="/images/TypesDs.jpg" />
                         </li>
 
                         <li className="sub-head">
-                            <h5>Need For Data Structure: </h5>
+                            <h5 className="dsa-h5">Need For Data Structure: </h5>
 
                             <p> As applications are getting complexed and amount of data is increasing day by day, there may arrise the following problems:</p>
 
                             <ul type="circle" className="need-points">
                                 <li>
-                                    <h6>Processor speed:</h6> To handle very large amout of data, high speed processing is required, but as the data is growing day by day to the billions of files per entity, processor may fail to deal with that much amount of data.
+                                    <h6 className="dsa-h6">Processor speed:</h6> To handle very large amout of data, high speed processing is required, but as the data is growing day by day to the billions of files per entity, processor may fail to deal with that much amount of data.
                                 </li>
 
                                 <li>
-                                    <h6>Data Search:</h6> Consider an inventory size of 106 items in a store, If our application needs to search for a particular item, it needs to traverse 106 items every time, results in slowing down the search process.
+                                    <h6 className="dsa-h6">Data Search:</h6> Consider an inventory size of 106 items in a store, If our application needs to search for a particular item, it needs to traverse 106 items every time, results in slowing down the search process.
                                 </li>
 
                                 <li>
-                                    <h6>Multiple requests:</h6> If thousands of users are searching the data simultaneously on a web server, then there are the chances that a very large server can be failed during that process in order to solve the above problems, data structures are used. Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.
+                                    <h6 className="dsa-h6">Multiple requests:</h6> If thousands of users are searching the data simultaneously on a web server, then there are the chances that a very large server can be failed during that process in order to solve the above problems, data structures are used. Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.
                                 </li>
                             </ul>
                         </li>
@@ -49,7 +49,7 @@ const DSA = () => {
                     <ul type="none">
 
                         <li>
-                            <h5>1. Arrays</h5>
+                            <h5 className="dsa-two-h5">1. Arrays</h5>
                             <ul type="disc" className="linear-data-structures">
                                 <li >
                                     Arrays are defined as the collection of similar type of data items stored at contiguous memory locations.
@@ -61,7 +61,7 @@ const DSA = () => {
                         </li>
 
                         <li>
-                            <h5>2. Linked List</h5>
+                            <h5 className="dsa-two-h5">2. Linked List</h5>
                             <ul type="disc" className="linear-data-structures">
                                 <li>
                                     A linked list can be defined as the collection of the nodes in which one node is connected to another node, and node consists of two parts, i.e., one is the data part and the second one is the address part.
@@ -73,7 +73,7 @@ const DSA = () => {
                         </li>
 
                         <li>
-                            <h5>3. Stack</h5>
+                            <h5 className="dsa-two-h5">3. Stack</h5>
                             <ul type="disc" className="linear-data-structures">
                                 <li> A Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle.
                                     It contains only one pointer i.e., top pointer pointing to the topmost element of the stack.
@@ -88,7 +88,7 @@ const DSA = () => {
                         </li>
 
                         <li>
-                            <h5>4. Queue</h5>
+                            <h5 className="dsa-two-h5">4. Queue</h5>
                             <ul type="disc" className="linear-data-structures">
                                 <li>
                                     A Queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR and delete operations to be performed at another end called FRONT.
@@ -111,7 +111,7 @@ const DSA = () => {
                     <ul type="none">
 
                         <li>
-                            <h5>1. Trees</h5>
+                            <h5 className="dsa-two-h5">1. Trees</h5>
                             <ul type="disc" className="non-linear-data-structures">
                                 <li>
                                     A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
@@ -129,7 +129,7 @@ const DSA = () => {
                         </li>
 
                         <li>
-                            <h5>2. Graph</h5>
+                            <h5 className="dsa-two-h5">2. Graph</h5>
                             <ul type="disc" className="non-linear-data-structures">
                                 <li>
                                     A graph G can be defined as an ordered set G(V, E) where V(G) represents the set of vertices and E(G) represents the set of edges which are used to connect these vertices.
