@@ -10,7 +10,6 @@ ul > li{
 #learn-cpp{
     font-size: 3.5rem;
     margin: auto;
-    font-weight: 300;
 }
 
 .cpp > p, .cpp > ul{
@@ -21,7 +20,8 @@ ul > li{
     font-size: 1.1rem; 
     font-Weight: bold;
 }
-#cpp-h6{
+
+.cpp-h6{
     font-size: 1rem;
     font-weight: 600;
     margin-left: auto;

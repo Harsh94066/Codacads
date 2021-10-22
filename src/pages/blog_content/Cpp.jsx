@@ -49,7 +49,7 @@ const Cpp = () => {
                     <h2>STL Tutorials</h2>
                     <hr />
                     <div className="stl">
-                        <h6 id="cpp-h6"><EventNoteTwoToneIcon />IMPORTANT</h6>
+                        <h6 className="cpp-h6"><EventNoteTwoToneIcon />IMPORTANT</h6>
                         STL provides the ready-made implementation of some frequently used data structures and algorithms. Don’t  underestimate the power of STL !
                     </div>
                     <p>Go through <a href="https://www.geeksforgeeks.org/the-c-standard-template-library-stl/" target="_blank">this tutorial</a> once.</p>
