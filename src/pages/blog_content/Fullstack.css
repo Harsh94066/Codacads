@@ -4,20 +4,12 @@ ul > li{
     margin-left: -1em; 
  }
  
- .section{
-     margin-top: 3em;
- }
- 
- /*hr{
-    background-color:rgba(0, 0, 0, 0.527);
-    height: .1rem;
-}*/
- 
- .section > p, .section > ul{
-     margin-left: 1rem;
- }
  
  
+.fullstack-section {
+    margin-top: 1.5rem;
+}
+
  .website_theme h1 h2{
      font-size: 3.5rem;
      margin: auto;
@@ -29,7 +21,7 @@ ul > li{
  }
  
  
- h4{
+ .full-h4{
      margin-top: 3rem;
      margin-left: 0rem;
      font-size: 1.5rem;
@@ -56,15 +48,13 @@ ul > li{
     margin-top: 3rem;
 }
 
-section > h5{
-    margin-left: 0rem;
-}
 
-h2 {
+
+.full-h2 {
     margin-top: 4rem;
 }
 
-h5 {
+.full-h5 {
     margin-top: 3rem;
 }
 
