@@ -11,12 +11,12 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             {/* <img src={mightycoder} alt="avatar" className="sidebar__avatar" /> */}
-            <NavLink to= '/'><div className="sidebar__title">Codacads</div></NavLink>
+            <NavLink to='/'><div className="sidebar__title">Codacads</div></NavLink>
             <div className="sidebar__item">
                 Web Developer
             </div>
             <NavLink to='/roadmap'><div className="sidebar_elements">Roadmap</div></NavLink>
-            <div className="sidebar_elements">Practice & Learn</div>
+            <NavLink to='/practice&learn'><div className="sidebar_elements">Practice & Learn</div></NavLink>
             <NavLink to='/keypoints'><div className="sidebar_elements">Key Points</div></NavLink>
             <div className="sidebar_elements">Help</div>
             {/* <a href={resume} download="resume.pdf">

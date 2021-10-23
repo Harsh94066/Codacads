@@ -23,7 +23,7 @@ const C = () => {
           <p>Before starting the abcd of C language, you need to learn how to write, compile and run the first c program.
             To write the first c program, open the C console and write the following code:
           </p>
-          <div className="highlight">
+          <div className="c-highlight">
             <Highlight>
               {`
           #include < stdio.h >
@@ -60,7 +60,7 @@ const C = () => {
             </ul>
           </div>
           <h6 className="c-h6">Program to print cube of given number</h6>
-          <div>
+          <div className="c-highlight">
             <Highlight>
               {`
           #include<stdio.h>

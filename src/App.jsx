@@ -9,6 +9,7 @@ import DSA from './pages/blog_content/DSA';
 import Fastio from './pages/blog_content/Fastio';
 import Fullstack from './pages/blog_content/Fullstack';
 import Keypoints from './pages/Keypoints';
+import Practice from './pages/Practice';
 import Roadmap from './pages/Roadmap';
 // import '../node_modules/bootswatch/dist/minty/bootstrap.min.css'
 
@@ -45,6 +46,9 @@ function App() {
                 </Route>
                 <Route path='/roadmap/fullstack'>
                   <Fullstack />
+                </Route>
+                <Route path='/practice&learn'>
+                  <Practice />
                 </Route>
                 <Route path='/keypoints/fastio'>
                   <Fastio />
