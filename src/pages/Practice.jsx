@@ -29,6 +29,10 @@ const Practice = () => {
                         <h4>Leetcode</h4>
                         <p>Give the beginner contests on atcoder, regularly.</p>
                     </div>
+                    <div className>
+                        <span><span>NOTE : </span>To keep updated with all the programming contest going on worldwide, <a href="https://clist.by" target="blank">visit here</a> 
+                        </span>
+                    </div>
                 </section>
             </div>
         </>

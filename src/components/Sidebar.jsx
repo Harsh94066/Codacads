@@ -18,7 +18,8 @@ const Sidebar = () => {
             <NavLink to='/roadmap'><div className="sidebar_elements">Roadmap</div></NavLink>
             <NavLink to='/practice&learn'><div className="sidebar_elements">Practice & Learn</div></NavLink>
             <NavLink to='/keypoints'><div className="sidebar_elements">Key Points</div></NavLink>
-            <div className="sidebar_elements">Help</div>
+            <NavLink to='/help'><div className="sidebar_elements">Help</div></NavLink>
+            {/*<div className="sidebar_elements">Help</div>*/}
             {/* <a href={resume} download="resume.pdf">
                 <div className="sidebar__item sidebar__resume">
                     <img src={tie} alt="resume" className="sidebar__icon" />Download Resume
