@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
 
 #body {
-    background-image: linear-gradient(to right bottom, #000046, #1CB5E0);
+    background: black;
     background-attachment: fixed;
     overflow:auto;
 }

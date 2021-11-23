@@ -21,8 +21,8 @@
 
 .sidebar_elements{
     /* background-color: #1CB5E0; */
-    background-image: linear-gradient(to right bottom, #000046, #1CB5E0);
-    color:white;
+    background: #0edb3efa;
+    color:black;
     margin: 20px 40px;
     border-radius: 5px;
     line-height: 2rem;
