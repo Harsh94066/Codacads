@@ -14,11 +14,11 @@ const Help = () => {
                     We welcome you to the platform where we consistently strive to offer the best of our learnings.
 
                     This platform has been designed for every person wishing to expand their programming knowledge and is ready to grab their dream job. We have a number of articles and tutorials.Thank you for supporting us.
-                    <span>Codacads Team</span>
+                    <span >Codacads Team</span>
                 </blockquote>
 
                 <section>
-                    <h2>Contributors</h2>
+                    <h2 className="contributor">Contributors</h2>
                 </section>
             </div>
 

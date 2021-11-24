@@ -9,12 +9,12 @@
   text-align: center;
 }
 
-span
+.otro-blockquote span
 {
   text-decoration: underline;
 }
 
-section h2
+.contributor
 {
   text-align: center;
 }
@@ -193,10 +193,10 @@ figure.snip0056.hover > img {
 
 
 /* Demo purposes only */
-html {
+/* html {
   height: 100%;
-}
-body {
+} */
+/* body {
   background-color: #212121;
   display: flex;
   justify-content: center;
@@ -204,7 +204,7 @@ body {
   flex-flow: wrap;
   margin: 0;
   height: 100%;
-}
+} */
 
 
 

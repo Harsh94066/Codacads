@@ -11,7 +11,7 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             {/* <img src={mightycoder} alt="avatar" className="sidebar__avatar" /> */}
-            <NavLink to='/'><div className="sidebar__title">Codacads</div></NavLink>
+            <NavLink to='/' activeClassName="main_title"><div className="sidebar__title">Codacads</div></NavLink>
             <div className="sidebar__item">
                 Web Developer
             </div>

@@ -16,9 +16,7 @@ body {
   background: #fafafa;
 }
 
-a {
-  color: inherit;
-}
+
 
 .cards-wrapper {
   display: grid;

@@ -1,0 +1,36 @@
+.practice h1{
+    border-bottom: 5px solid #0edb3efa;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.hackerrank{
+   margin-left: 10px;
+}
+
+.sub-topics{
+    font-weight: 500;
+}
+
+.regcontest{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.regcontest>p{
+    margin-left: 15px;
+}
+
+.platforms{
+    margin-left: 15px;
+}
+
+.note{
+    margin-top: 40px;
+    font-size: large;
+}
+
+.span_note{
+    font-weight:bold;
+    text-decoration: underline;
+}

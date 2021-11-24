@@ -12,12 +12,12 @@
 
 a {
     text-decoration: none;
-    color: #354548;
+    color: #0edb3efa;
 }
 
 a:hover {
     text-decoration: none;
-    color: #000;
+    color: -webkit-link;
 }
 
 .container-main {
@@ -42,6 +42,7 @@ a:hover {
     overflow-y: auto;
 }
 
+
 @media(max-width:991px) {
     .app__main-content {
         margin: 30px 0;
@@ -55,3 +56,9 @@ hr{
     margin-bottom: 1em;
     margin-top: 0.6em;
 }
+
+.app{
+    overflow-x: hidden;
+}
+
+
