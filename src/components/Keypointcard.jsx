@@ -23,9 +23,8 @@ function Keypointcard() {
                     <div className="num">01</div>
                     <NavLink to='/keypoints/fastio' className="card card2">
                         <div>
-                            <h1>Basic types of HTML tags</h1>
-                            <p>Learn about some of the most common HTML tags…</p>
-                            <div className="date">9 Oct 2017</div>
+                            <h1>C++ Advanced Concepts</h1>
+                            <p>Learn some good techniques how to run your code faster...</p>
                             <div className="tags">
                                 <div className="tag">C++</div>
                             </div>
@@ -36,9 +35,8 @@ function Keypointcard() {
                     <div className="num">02</div>
                     <NavLink to='/keypoints/common-mistakes' className="card card3">
                         <div>
-                            <h1>Links, images and about file paths</h1>
-                            <p>Learn how to use links and images along with file paths…</p>
-                            <div className="date">14 Oct 2017</div>
+                            <h1>Avoid Mistakes</h1>
+                            <p>Try to avoid these common mistakes while coding...</p>
                             <div className="tags">
                                 <div className="tag">C++</div>
                             </div>

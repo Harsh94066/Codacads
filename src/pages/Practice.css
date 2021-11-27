@@ -1,7 +1,10 @@
 .practice h1{
     border-bottom: 5px solid #0edb3efa;
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .hackerrank{

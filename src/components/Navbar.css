@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .navbar__items {
     display: flex;
 }
@@ -23,3 +27,33 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
+
+div.header-main{
+   background-color: #0edb3efa;
+   height: 300px;
+   color:white;
+   text-align: center;
+   padding: 45px 15px;
+   font-size: 25px;
+   line-height: 70px;
+   margin-top: -1.4rem;
+   margin-left: -10px;
+   margin-right: 10px;
+}
+
+.front-page-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.single-card{
+    width:33.33%;
+    margin:15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.front-page{
+   height: 100%;
+}
+

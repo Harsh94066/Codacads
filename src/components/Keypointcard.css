@@ -33,10 +33,10 @@ body {
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 20em;
+  height: 15em;
   width: 15em;
   font-size: 1.5em;
-  color: white;
+  color: black;
   border-radius: 1em;
   padding: 1em;
   /*margin: 2em;*/
@@ -54,6 +54,7 @@ body {
 
 .card:hover {
   transform: rotate(0);
+  color:white;
 }
 
 .card h1 {
@@ -123,13 +124,13 @@ body {
   height: 200%;
 }
 
-.card:hover {
+/* .card:hover {
   color: var(--color);
-}
+} */
 
-.card:hover:before, .card:hover:after {
+/* .card:hover:before, .card:hover:after {
   transform: scale(1);
-}
+} */
 
 .card-grid-space .num {
   font-size: 3em;
@@ -153,14 +154,17 @@ body {
   font-size: 1em;
   font-weight: normal;
 }
-.card1{
+/* .card1{
     background-image: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg');
-}
-.card2{
-    background-image: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg');
-}
+} */
+ .card2{
+    /* background-image: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg'); */
+    background-color:#0edb3efa ;
+    
+} 
 .card3{
-    background-image: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg');
+    /* background-image: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg'); */
+    background-color: #0edb3efa;
 }
 
 /* MEDIA QUERIES */

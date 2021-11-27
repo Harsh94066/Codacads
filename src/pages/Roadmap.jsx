@@ -23,7 +23,7 @@ function Roadmap() {
                     link="/roadmap/dsa"
                 />
                 <Card
-                    title="Full Stack Development"
+                    title="Full Stack"
                     defination="It refers to the development of both front end(client side) and back end(server side) portions of web application."
                     link="/roadmap/fullstack"
                 />
