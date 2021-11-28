@@ -1,0 +1,17 @@
+div.timeandspace {
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.fastino {
+    border-bottom: 5px solid #0edb3efa;
+    font-weight: bold;
+}
+
+div.timeandspace h4,h5 {
+    font-weight: bold;
+}
+
+.tip2 {
+    margin-left: 15px;
+}

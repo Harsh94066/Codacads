@@ -29,7 +29,8 @@ const Navbar = () => {
                 <div className="header-main">
                     <h1>Welcome Coders</h1>
                     <p>A roadmap by Codacads</p>
-                    <button type="button">Get Started</button>
+                    
+                    <a clasName="getstarted" href="/roadmap">Get Started</a>
                 </div>
 
                 <div className="front-page-cards">

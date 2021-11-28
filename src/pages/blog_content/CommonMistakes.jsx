@@ -1,13 +1,13 @@
 import React from 'react'
 import Highlight from 'react-highlight';
 import { RiLightbulbFlashLine } from 'react-icons/ri';
+import "./CommonMistakes.css";
 
 function CommonMistakes() {
     return (
         <div>
             <section className="section">
-                    <h2 className="">Avoid common mistakes</h2>
-                    <hr/>
+                    <h2 className="Mistake">Avoid common mistakes</h2>
                     <ul>
                         <li>You must become familiar with the following :
 
@@ -43,9 +43,21 @@ function CommonMistakes() {
                         </div>
 
                     </ul>
-
-
-
+                <div className="seven-mistakes">
+                    <h3 >
+                    7 Common Programming Mistakes That Every Beginner Must Avoid
+                </h3>
+                <hr />
+                <ul>
+                    <li>Learning Too Many Programming Languages, Frameworks, and Technology. ..</li>
+                    <li>Comparison, Self Doubt, And Fear. ...</li>
+                    <li>Writing Messy Code And Ignoring Code Quality. ...</li>
+                    <li>Writing Code Without Plan. ...</li>
+                    <li>Thinking You Know It All. ...</li>
+                    <li>No Backup For Work. ...</li>
+                    <li>Laziness in Doing Practice</li>
+                </ul>
+                </div>
 
                 </section>
         </div>

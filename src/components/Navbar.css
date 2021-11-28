@@ -58,3 +58,16 @@ div.header-main{
    height: 100%;
 }
 
+div.header-main a {
+    color: white;
+    background-color: rgb(88, 86, 86);
+    padding: 8px;
+    border: 3px solid white;
+    box-shadow: 5px 4px 2px black;
+    border-radius: 20px;
+}
+
+div.header-main a:hover {
+    background-color: black;
+
+}

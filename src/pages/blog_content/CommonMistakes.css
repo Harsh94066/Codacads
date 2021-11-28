@@ -1,0 +1,23 @@
+div.seven-mistakes {
+    margin-left: 15px;
+}
+
+div.seven-mistakes ul {
+    margin-left: 15px;
+}
+
+
+.Mistake {
+    border-bottom: 5px solid #0edb3efa;
+    font-weight: bold;
+}
+
+.tip {
+    background-color: #0edb3efa;
+    padding: 15px 15px;
+    margin-top: 20px;
+    margin-left: -15px;
+    border-radius: 1rem;
+    color: white;
+}
+
