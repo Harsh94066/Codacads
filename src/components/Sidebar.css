@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Oswald:wght@300&family=Playfair+Display&family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+
 .sidebar {
     background-color: #fff;
     height: 750px;
@@ -7,6 +9,7 @@
     text-align: center;
     position: sticky;
     top: 15px;
+    /* background-image: url('https://previews.123rf.com/images/anagram1/anagram11709/anagram1170900039/86386866-abstract-yellow-watercolor-background-in-high-resolution.jpg'); */
 }
 
 .sidebar__avatar {
@@ -31,9 +34,12 @@
 }
 
 .sidebar__title {
-    font-family: 'Kaushan Script';
     margin: 20px 0;
-    font-size: 1.7rem;
+    font-size: 3rem;
+font-family: 'Estonia', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .main_title:hover{
@@ -52,6 +58,16 @@
     border-radius: 30px;
     background-color: #f1f1f1;
 
+}
+
+div.social{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.contact-us{
+    margin-top: 5rem;
 }
 
 /* .sidebar__contact {

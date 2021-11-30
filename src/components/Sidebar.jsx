@@ -2,6 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './Sidebar.css';
 // import mightycoder from '../assets/mightycoder.svg'
+import logo from './sidebar-icon/logo.jpeg';
+import { SocialIcon } from 'react-social-icons';
 
 
 const Sidebar = () => {
@@ -10,15 +12,24 @@ const Sidebar = () => {
     // }
     return (
         <div className="sidebar">
-            {/* <img src={mightycoder} alt="avatar" className="sidebar__avatar" /> */}
-            <NavLink to='/' activeClassName="main_title"><div className="sidebar__title">Codacads</div></NavLink>
+            <img src={logo} alt="avatar" className="sidebar__avatar" />
+            <NavLink to='/' activeClassName="main_title"><div className="sidebar__title">CodⒶcads</div></NavLink>
             <div className="sidebar__item">
-                Web Developer
+                Learn Programming
             </div>
             <NavLink to='/roadmap'><div className="sidebar_elements">Roadmap</div></NavLink>
             <NavLink to='/practice&learn'><div className="sidebar_elements">Practice & Learn</div></NavLink>
             <NavLink to='/keypoints'><div className="sidebar_elements">Key Points</div></NavLink>
             <NavLink to='/help'><div className="sidebar_elements">About us</div></NavLink>
+
+            <h3 className="contact-us">Contact Us</h3>
+            <div className="social">
+                <SocialIcon url="https://twitter.com/jaketrent" />
+                <SocialIcon url="https://youtube.com/jaketrent" />
+                <SocialIcon url="xzd@gmail.com" />
+                <SocialIcon url="https://instagram.com/jaketrent" />
+            </div>
+
             {/*<div className="sidebar_elements">Help</div>*/}
             {/* <a href={resume} download="resume.pdf">
                 <div className="sidebar__item sidebar__resume">
@@ -40,6 +51,7 @@ const Sidebar = () => {
                 <div className="sidebar__item">7835323423/9876543510</div>
             </div>
             {/* <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>email me</div> */}
+
         </div>
     )
 }
