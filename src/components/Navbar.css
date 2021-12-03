@@ -71,3 +71,7 @@ div.header-main a:hover {
     background-color: black;
 
 }
+
+div.single-card>img {
+    filter: contrast(150%);
+}

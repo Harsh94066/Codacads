@@ -2,17 +2,23 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './Sidebar.css';
 // import mightycoder from '../assets/mightycoder.svg'
-import logo from './sidebar-icon/logo.jpeg';
+import logo_main from './sidebar-icon/logo_main.jpeg';
 import { SocialIcon } from 'react-social-icons';
+import DarkMode from '../DarkMode';
+
 
 
 const Sidebar = () => {
     // const handleEmailMe = () => {
     //     window.open("mailto:codesumax@gmail.com")
     // }
+
+
+    
+
     return (
         <div className="sidebar">
-            <img src={logo} alt="avatar" className="sidebar__avatar" />
+            <img src={logo_main} alt="avatar" className="sidebar__avatar" />
             <NavLink to='/' activeClassName="main_title"><div className="sidebar__title">CodⒶcads</div></NavLink>
             <div className="sidebar__item">
                 Learn Programming
@@ -22,11 +28,13 @@ const Sidebar = () => {
             <NavLink to='/keypoints'><div className="sidebar_elements">Key Points</div></NavLink>
             <NavLink to='/help'><div className="sidebar_elements">About us</div></NavLink>
 
+            <DarkMode />
+
             <h3 className="contact-us">Contact Us</h3>
             <div className="social">
                 <SocialIcon url="https://twitter.com/jaketrent" />
-                <SocialIcon url="https://youtube.com/jaketrent" />
-                <SocialIcon url="xzd@gmail.com" />
+                <SocialIcon url="https://linkedin.com/" />
+                <SocialIcon url="https://telegram.org/" />
                 <SocialIcon url="https://instagram.com/jaketrent" />
             </div>
 
