@@ -4,7 +4,6 @@ import './Sidebar.css';
 // import mightycoder from '../assets/mightycoder.svg'
 import logo_main from './sidebar-icon/logo_main.jpeg';
 import { SocialIcon } from 'react-social-icons';
-import DarkMode from '../DarkMode';
 
 
 
@@ -28,7 +27,7 @@ const Sidebar = () => {
             <NavLink to='/keypoints'><div className="sidebar_elements">Key Points</div></NavLink>
             <NavLink to='/help'><div className="sidebar_elements">About us</div></NavLink>
 
-            <DarkMode />
+            
 
             <h3 className="contact-us">Contact Us</h3>
             <div className="social">
