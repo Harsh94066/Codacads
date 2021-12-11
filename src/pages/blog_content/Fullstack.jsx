@@ -34,7 +34,7 @@ const Fullstack = () => {
                         Our breakdown for frontend and backend development is as follows:</p>
                 </section>
                 <section className="fullstack-section">
-                    <p className="headings">FrontEnd Development:</p>
+                    <h4 className="headings">FrontEnd Development:</h4>
                     <hr />
                     <ul type="none">
                         <li
@@ -52,7 +52,7 @@ const Fullstack = () => {
                 </section>
 
                 <section className="fullstack-section">
-                    <p className="headings">BackEnd Development</p>
+                    <h4 className="headings">BackEnd Development</h4>
                     <hr />
                     <p>We recommend following options from a huge list of available options with pros and cons:</p>
                     <ol>
@@ -116,7 +116,9 @@ const Fullstack = () => {
 
                     <section className="front_end">
                         <h2 className="full-h2">Front End Development</h2>
-                        <hr />
+                        <div className="special-hr" >
+                            <hr />
+                        </div>
                         <p>Frontend development, also known as client-side development refers to building the UI/UX of a website, to which the user directly interacts using his browser.</p>
                         <h5>JS (JavaScript)</h5>
                         <hr />
@@ -136,12 +138,12 @@ const Fullstack = () => {
                         <p>The main advantage of bootstrap is that it allows you to make your website responsive in quite an easy manner. Bootstrap provides a lot of ready-made components using some ready-made CSS classes, which saves much time.
                         </p>
                         <p>For learning Bootstrap, you may go through these in order-</p>
-                        <ul>
+                        <ul className="front-end-list">
                             <li><b>Introduction to Bootstrap: </b> <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank">https://getbootstrap.com/docs/4.0/getting-started/introduction/</a></li>
 
                             <li><b>Grid System of Bootstrap: </b> <a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">https://getbootstrap.com/docs/4.0/layout/grid/</a></li>
 
-                            <li><b>Explore the components that Bootstrap provides: </b> <a href="https://getbootstrap.com/docs/4.0/components" target="_blank">https://getbootstrap.com/docs/4.0/components</a> <p>Just try to get an overall idea, of what all components, bootstrap provides. You can just use these components in your project, whenever you like. There is no point in cramming the classes of these components as you may explore the documentation, whenever you need it. </p></li>
+                            <li><b>Explore the components that Bootstrap provides: </b> <a href="https://getbootstrap.com/docs/4.0/components" target="_blank">https://getbootstrap.com/docs/4.0/components</a> <div>Just try to get an overall idea, of what all components, bootstrap provides. You can just use these components in your project, whenever you like. There is no point in cramming the classes of these components as you may explore the documentation, whenever you need it. </div></li>
 
                             <li><b>You may also like to go through this Bootstrap Crash Course by Traversy Media: </b>
                                 <a href="https://www.youtube.com/watch?v=5GcQtLDGXy8" target="_blank">https://www.youtube.com/watch?v=5GcQtLDGXy8</a></li>
@@ -155,10 +157,10 @@ const Fullstack = () => {
                             React is one of the most popular frameworks for frontend development. React provides a lot of features like Reusable components, Virtual DOM, conditional rendering, etc., and allows you to build even complex UI/UX in a much easy manner.
                         </p>
                         <p>For learning React, you may go through these, in order :</p>
-                        <ul>
+                        <ul className="front-end-list">
                             <li><b>React Tutorial for beginners, by Thapa Teachnical:</b> <br /> <a style={{ marginLeft: "0.3rem" }} href="https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ" target="_blank">https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ</a>
-                                <p>For reference, Go through the React JS documentation (Only “Main Concepts” section):
-                                    <a href="https://reactjs.org/docs/hello-world.html"> https://reactjs.org/docs/hello-world.html</a></p></li>
+                                <div>For reference, Go through the React JS documentation (Only “Main Concepts” section):
+                                    <a href="https://reactjs.org/docs/hello-world.html"> https://reactjs.org/docs/hello-world.html</a></div></li>
 
                             <li><b>Go through React Hooks, the modern syntax of React:</b> <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank"> https://reactjs.org/docs/hooks-intro.html</a>
                             </li>
@@ -172,9 +174,11 @@ const Fullstack = () => {
                             Once you have learned React, you may observe that you need to pass the state of one component in the form of props to some other components. But, when you would be a building large project, which contains hundreds of components, this passing of state as props, may reduce the code readability to a large extent.
                             Basically, you need something to manage your state in some central store, which can be directly accessed by any of the components, without the need to pass props to it. This is what Redux does. Redux maintains the state of an entire application in a single immutable state tree (object), which can't be changed directly. When something changes, a new object is created (using actions and reducers).
                         </p>
-                        <p>
-                            <b>You may learn Redux through this crash course by Traversy Media: </b><a href="https://www.youtube.com/watch?v=1oU_YGhT7ck" target="_blank"> https://www.youtube.com/watch?v=1oU_YGhT7ck</a> <br /><b> Do have a look at its documentation for reference: </b><a href="https://redux.js.org/tutorials/essentials/part-1-overview-concepts" target="_blank"> https://redux.js.org/tutorials/essentials/part-1-overview-concepts</a>
-                        </p>
+                        <div className="redux">
+                            <p>
+                                <b>You may learn Redux through this crash course by Traversy Media: </b><a href="https://www.youtube.com/watch?v=1oU_YGhT7ck" target="_blank"> https://www.youtube.com/watch?v=1oU_YGhT7ck</a> <br /><b> Do have a look at its documentation for reference: </b><a href="https://redux.js.org/tutorials/essentials/part-1-overview-concepts" target="_blank"> https://redux.js.org/tutorials/essentials/part-1-overview-concepts</a>
+                            </p>
+                        </div>
                     </section>
                 </section>
 

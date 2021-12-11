@@ -13,7 +13,7 @@ const Sidebar = () => {
     // }
 
 
-    
+
 
     return (
         <div className="sidebar">
@@ -27,14 +27,14 @@ const Sidebar = () => {
             <NavLink to='/keypoints'><div className="sidebar_elements">Key Points</div></NavLink>
             <NavLink to='/help'><div className="sidebar_elements">About us</div></NavLink>
 
-            
+
 
             <h3 className="contact-us">Contact Us</h3>
             <div className="social">
-                <SocialIcon url="https://twitter.com/jaketrent" />
-                <SocialIcon url="https://linkedin.com/" />
-                <SocialIcon url="https://telegram.org/" />
-                <SocialIcon url="https://instagram.com/jaketrent" />
+                <SocialIcon url="https://twitter.com/" target="_blank" />
+                <SocialIcon url="https://linkedin.com/" target="_blank" />
+                <SocialIcon url="https://telegram.org/" target="_blank" />
+                <SocialIcon url="https://instagram.com/" target="_blank" />
             </div>
 
             {/*<div className="sidebar_elements">Help</div>*/}

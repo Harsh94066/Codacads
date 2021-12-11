@@ -1,13 +1,19 @@
 
-ul > li{
+/* ul > li{
     margin-top: .7em;
     margin-left: -1em; 
+ } */
+ 
+ .fullstack-section ul{
+     margin-left: 1rem;
+ }
+
+ .fullstack-section hr{
+     margin-bottom: 2rem;
  }
  
- 
- 
 .fullstack-section {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
  .website_theme h1 h2{
@@ -23,10 +29,14 @@ ul > li{
  
  .full-h4{
      margin-top: 3rem;
-     margin-left: 0rem;
+     margin-left: 0.5rem;
      font-size: 1.5rem;
      font-weight: 500;
      margin-bottom: 1em;
+ }
+
+ .fullstack-section p{
+     margin-left: 1rem;
  }
  
  .h5-after-margin{
@@ -38,6 +48,7 @@ ul > li{
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 1em;
+    margin-left: .5rem;
  }
 
  .tip {
@@ -48,16 +59,54 @@ ul > li{
     margin-top: 3rem;
 }
 
+.front_end p{
+    margin-left: 1.5rem;
+}
 
+.front_end ul li {
+    padding: .2rem;
+}
+
+.front_end hr{
+    margin-left: 1rem;
+}
+
+.special-hr{
+    margin-left: -1rem;
+}
+
+.front_end h5{
+    margin-left: 1rem;
+}
 
 .full-h2 {
-    margin-top: 4rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    /* margin-left: -1rem; */
 }
 
 .full-h5 {
     margin-top: 3rem;
+    margin-left: 1rem;
 }
 
 .fe-list {
     margin-left: -2.5rem;
 }
+
+.fullstack-section ol li{
+    padding: 7px;
+}
+
+.fullstack-section .tip{
+  margin-left: .6rem;
+}
+
+.front-end-list li{
+    margin-left: .2rem;
+} 
+
+.redux{
+    margin-left: 1rem;
+}
+
