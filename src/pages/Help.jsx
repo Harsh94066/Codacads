@@ -18,7 +18,7 @@ const Help = () => {
                 </blockquote>
 
                 <section>
-                    <h2 className="contributor">Contributors</h2>
+                    <h2 className="contributor">Team</h2>
                 </section>
             </div>
 
@@ -30,9 +30,9 @@ const Help = () => {
                     <figure class="snip0056">
                         <figcaption>
                             <h2>Divyansh <span>Sood</span></h2>
-                            <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p>
-                            <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div>
-                        </figcaption><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample8.jpg" alt="sample8" />
+                            {/* <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p> */}
+                            {/* <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div> */}
+                        </figcaption><img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="sample" />
                         <div class="position">MERN Developer</div>
                     </figure>
                 </div>
@@ -41,9 +41,9 @@ const Help = () => {
                     <figure class="snip0056">
                         <figcaption>
                             <h2>Harsh <span>Chopra</span></h2>
-                            <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p>
-                            <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div>
-                        </figcaption><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample8.jpg" alt="sample8" />
+                            {/* <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p> */}
+                            {/* <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div> */}
+                        </figcaption><img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="sample8" />
                         <div class="position">MERN Developer</div>
                     </figure>
                 </div>
@@ -52,9 +52,9 @@ const Help = () => {
                     <figure class="snip0056">
                         <figcaption>
                             <h2>Prince <span>Rathore</span></h2>
-                            <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p>
-                            <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div>
-                        </figcaption><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample8.jpg" alt="sample8" />
+                            {/* <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p> */}
+                            {/* <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div> */}
+                        </figcaption><img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="sample8" />
                         <div class="position">MERN Developer</div>
                     </figure>
                 </div>
@@ -63,9 +63,9 @@ const Help = () => {
                     <figure class="snip0056">
                         <figcaption>
                             <h2>Yash <span>Shrivastava</span></h2>
-                            <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p>
-                            <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div>
-                        </figcaption><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample8.jpg" alt="sample8" />
+                            {/* <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p> */}
+                            {/* <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div> */}
+                        </figcaption><img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="sample8" />
                         <div class="position">MERN Developer</div>
                     </figure>
                 </div>
