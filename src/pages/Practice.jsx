@@ -27,12 +27,12 @@ const Practice = () => {
                     <div className="platforms">
                         <h4><a href="https://www.codechef.com/" target="_blank">Codechef</a></h4>
                         <hr />
-                        <p>Give the monthly long challenge on codechef, regularly.</p>
+                        <p>Give the monthly challenges on codechef, regularly.</p>
                     </div>
                     <div className="platforms">
                         <h4><a href="https://leetcode.com/" target="_blank">Leetcode</a></h4>
                         <hr />
-                        <p>Give the beginner contests on atcoder, regularly.</p>
+                        <p>Give the Weekly and Biweekly contests on leetcode, regularly.</p>
                     </div>
                     <div className="note">
                         <span><span className="span_note">NOTE</span>: To keep updated with all the programming contest going on worldwide, <a href="https://clist.by" target="blank">visit here</a>

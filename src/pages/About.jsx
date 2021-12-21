@@ -1,9 +1,9 @@
 import React from 'react';
-import './Help.css';
+import './About.css';
 // import Card from './'
 import Card from "react-bootstrap/Card";
 
-const Help = () => {
+const About = () => {
     return (
         <div className="two-card">
             <div className="intro-card">
@@ -79,4 +79,4 @@ const Help = () => {
     )
 }
 
-export default Help
+export default About;

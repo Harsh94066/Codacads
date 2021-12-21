@@ -20,7 +20,7 @@ const Sidebar = () => {
             <NavLink to='/roadmap'><div className="sidebar_elements">Roadmap</div></NavLink>
             <NavLink to='/practice&learn'><div className="sidebar_elements">Practice & Learn</div></NavLink>
             <NavLink to='/keypoints'><div className="sidebar_elements">Key Points</div></NavLink>
-            <NavLink to='/help'><div className="sidebar_elements">About us</div></NavLink>
+            <NavLink to='/about'><div className="sidebar_elements">About us</div></NavLink>
 
             <h3 className="contact-us">Contact Us</h3>
             <div className="social">
