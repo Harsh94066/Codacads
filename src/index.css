@@ -1,22 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Ubuntu&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
+
+:root {
+    --main-color: #00F260;
+    --nav-color: #0edb3efa;
+}
+
+/* Use var(--nav-color) */
 
 #body {
     background: black;
     background-attachment: fixed;
-    overflow:auto;
+    overflow: auto;
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'PT Serif', serif;
     font-weight: bold;
 }
 
-.website_theme{
+.website_theme {
     padding: 1em 2em;
 }
 
@@ -41,7 +53,7 @@ a:hover {
 
 .row {
     height: 95%;
-    width:100%;
+    width: 100%;
 }
 
 .app__main-content {
@@ -62,17 +74,13 @@ a:hover {
 }
 
 
-hr{
-    background-color:rgba(0, 0, 0, 0.527);
+hr {
+    background-color: rgba(0, 0, 0, 0.527);
     height: .1rem;
     margin-bottom: 1em;
     margin-top: 0.6em;
 }
 
-.app{
+.app {
     overflow-x: hidden;
 }
-
-
-
-

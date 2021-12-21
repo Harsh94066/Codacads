@@ -41,7 +41,7 @@ const Navbar = () => {
                         <p>Understand all the algorithms and data structures well. You should be able to figure out when to use a particular data structure or algorithm. It's rightly said that "You don't have to be great to start, but you have to start to be great."</p>
                     </div>
                     <div className="single-card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZVBx3QcXf1svHBvKZNedP05xFevWXsrt4nPZCaiO6AaEXIn5pM8Uoa1cGANj9DFMYzc&usqp=CAU" alt="error" height="200" width="300" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZVBx3QcXf1svHBvKZNedP05xFevWXsrt4nPZCaiO6AaEXIn5pM8Uoa1cGANj9DFMYzc&usqp=CAU" alt="error" height="200" width="270" />
                         <h4>Practice</h4>
                         <p>Practice the set of questions given to you, after each session. Make sure, you try them, by yourself. You should look at the editorial, hints, etc. only when you have given enough time to a question and still, you are not able to figure out the correct approach. Never say "I can't" because you can and you will, it takes practice to become perfect.</p>
                     </div>
