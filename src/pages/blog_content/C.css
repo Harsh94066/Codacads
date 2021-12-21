@@ -1,54 +1,57 @@
-ul > li{
-   margin-top: .7em;
-   margin-left: -1em; 
+ul>li {
+    margin-top: .7em;
+    margin-left: -1em;
 }
 
-.c{
+.c {
     margin-top: 2.5rem;
 }
 
-.c > p, .c > ul{
+.c>p,
+.c>ul {
     margin-left: 1rem;
 }
 
-#learn-c{
+#learn-c {
     font-size: 3.5rem;
     margin: auto;
 }
 
-.p-bullets> li{
+.p-bullets>li {
     margin-left: -1rem;
 }
 
-#img-datatypes{
-    margin-left: 4.5rem;
+#img-datatypes {
+    /* margin-left: 4.5rem; */
     margin-bottom: 2.5rem;
     height: 400px;
-    width:550px;
+    width: 100%;
+    max-width: 600px;
 }
 
-.table{
-    margin-left: 4.5rem;
+.table {
+    /* margin-left: 4.5rem; */
     margin-bottom: 2.5rem;
-    width: 600px;
     border: 2px solid black;
+    width: 100%;
+    max-width: 600px;
 }
 
-thead{
+thead {
     background-image: linear-gradient(to right bottom, #000046, #1CB5E0);
     color: white;
 }
 
-.c-h6{
+.c-h6 {
     text-decoration: underline;
     margin-bottom: 0.5rem;
     font-size: 1.3rem;
 }
 
-.h5-after-margin{
+.h5-after-margin {
     margin-left: 1.5rem;
 }
 
-.c-highlight{
+.c-highlight {
     margin-top: -2.5rem;
 }

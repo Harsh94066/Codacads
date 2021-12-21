@@ -16,6 +16,7 @@
     background-attachment: fixed;
     overflow: auto;
     font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden !important;
 }
 
 h1,
