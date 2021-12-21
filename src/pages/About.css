@@ -1,12 +1,13 @@
 .blockquote {
-  padding: 60px 80px 40px;
+  padding: 60px 80px 0px;
   position: relative;
 }
 .blockquote p {
-  font-family: "Utopia-italic";
-  font-size: 35px;
-  font-weight: 700px;
+  font-size: 50px;
+  font-weight: 100px;
   text-align: center;
+  color: #0edb3efa;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .otro-blockquote span
@@ -17,6 +18,12 @@
 .contributor
 {
   text-align: center;
+  font-weight:bold;
+  color: #0edb3efa;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  margin-top:100px;
+  margin-bottom: -50px;
 }
 
 /*blockquote p::before {
@@ -43,11 +50,11 @@ color: rgba(0,0,0,0.1);
   content: "";
   top: 20px;
   left: 50%;
-  margin-left: -100px;
+  margin-left: -190px;
   position: absolute;
-  border-bottom: 3px solid #bf0024;
+  border-bottom: 3px solid #242021;
   height: 3px;
-  width: 200px;
+  width: 400px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
@@ -73,6 +80,11 @@ font-size:4em;
 position: absolute;
 left: 10px;
 top:-10px;
+}
+
+.otro-blockquote{
+  width:75%;
+  margin-top: 0px;
 }
 
 .otro-blockquote::after{
@@ -104,6 +116,7 @@ figure.snip0056 {
   width: 100%;
   background: #ffffff;
   color: #000000;
+  box-shadow: 0px 0px 25px black;
 }
 figure.snip0056 * {
   -webkit-box-sizing: border-box;
@@ -112,15 +125,16 @@ figure.snip0056 * {
 figure.snip0056 > img {
   width: 50%;
   border-radius: 50%;
-  border: 4px solid #ffffff;
+  /* border: 1px solid #1b1919; */
   -webkit-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
   -webkit-transform: scale(1.6);
-  transform: scale(1.6);
-  position: relative;
+  transform: scale(1);
+  /* position: relative; */
   float: right;
   right: -15%;
   z-index: 1;
+  height: 250px;
 }
 figure.snip0056 figcaption {
   padding: 20px 30px 20px 20px;
@@ -132,7 +146,7 @@ figure.snip0056 figcaption h2,
 figure.snip0056 figcaption p {
   margin: 0;
   text-align: left;
-  padding: 10px 0;
+  padding: 100px 0;
   width: 100%;
 }
 figure.snip0056 figcaption h2 {
@@ -212,9 +226,11 @@ figure.snip0056.hover > img {
 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .profile-card
 {
-  margin: 50px;
+  margin: 80px;
+  margin-bottom: 20px;
 }
