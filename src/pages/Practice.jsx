@@ -7,7 +7,7 @@ const Practice = () => {
             <div className="practice">
                 <h1>Implementation and Regular Contests</h1>
                 <section className="hackerrank">
-                    <h3 className="sub-topics">HackerRank Implementation</h3>
+                    <h3>HackerRank Implementation</h3>
                     <hr />
                     <ul>
                         <li>Solve the implementation problems at least, until you get 5 or 6 star on hackerrank, in problem solving.</li>
@@ -16,7 +16,7 @@ const Practice = () => {
                 </section>
 
                 <section className="regcontest">
-                    <h3 className="sub-topics">Regular contests</h3>
+                    <h3>Regular contests</h3>
                     <hr />
                     <p>As, giving timed contests, helps to handle problems under pressure and boosts your time management skills.Give the contests on various online judges, regularly, as instructed below.</p>
                     <div className="platforms">
@@ -39,7 +39,7 @@ const Practice = () => {
                         </span>
                     </div>
                 </section>
-            </div >
+            </div>
         </>
     )
 }
