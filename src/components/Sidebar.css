@@ -2,7 +2,6 @@
 
 .sidebar {
     background-color: #fff;
-    height: 750px;
     border-radius: 12px;
     padding: 25px 15px;
     box-shadow: 0 0 10px black;
@@ -26,12 +25,13 @@
 
 .sidebar_elements {
     /* background-color: #1CB5E0; */
-    background-color: #0edb3efa;
-    color: black;
-    margin: 20px 40px;
+    background-color: #f1f1f1;
     border-radius: 5px;
     line-height: 2rem;
+    padding: 0rem 2rem;
+    max-width: 100px;
 }
+
 
 .sidebar__title {
     margin: 20px 0;

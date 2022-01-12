@@ -1,7 +1,5 @@
 import React from 'react';
 import './About.css';
-// import Card from './'
-import Card from "react-bootstrap/Card";
 
 const About = () => {
     return (
@@ -73,7 +71,6 @@ const About = () => {
 
 
         </div>
-
 
 
     )

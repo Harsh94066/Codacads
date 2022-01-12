@@ -1,28 +1,26 @@
 .blockquote {
-  padding: 60px 80px 0px;
   position: relative;
 }
+
 .blockquote p {
   font-size: 50px;
   font-weight: 100px;
   text-align: center;
   color: #0edb3efa;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.otro-blockquote span
-{
+.otro-blockquote span {
   text-decoration: underline;
 }
 
-.contributor
-{
+.contributor {
   text-align: center;
-  font-weight:bold;
+  font-weight: bold;
   color: #0edb3efa;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 50px;
-  margin-top:100px;
+  margin-top: 100px;
   margin-bottom: -50px;
 }
 
@@ -52,51 +50,51 @@ color: rgba(0,0,0,0.1);
   left: 50%;
   margin-left: -190px;
   position: absolute;
-  border-bottom: 3px solid #242021;
+  /* border-bottom: 3px solid #242021; */
   height: 3px;
   width: 400px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-.otro-blockquote{
-font-size: 1.4em;
-width:60%;
-margin:50px auto;
-font-family:Open Sans;
-font-style:italic;
-color: #555555;
-padding:1.2em 30px 1.2em 75px;
-border-left:8px solid #78C0A8 ;
-line-height:1.6;
-position: relative;
-background:#EDEDED;
+
+.otro-blockquote {
+  font-size: 1.4em;
+  width: clamp(300px, 90%, 800px);
+  margin: 50px auto;
+  font-family: Open Sans;
+  font-style: italic;
+  color: #555555;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #78C0A8;
+  line-height: 1.6;
+  position: relative;
+  background: #EDEDED;
 }
 
-.otro-blockquote::before{
-font-family:Arial;
-content: "\201C";
-color:#78C0A8;
-font-size:4em;
-position: absolute;
-left: 10px;
-top:-10px;
+.otro-blockquote::before {
+  font-family: Arial;
+  content: "\201C";
+  color: #78C0A8;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
 }
 
-.otro-blockquote{
-  width:75%;
+.otro-blockquote {
   margin-top: 0px;
 }
 
-.otro-blockquote::after{
-content: '';
+.otro-blockquote::after {
+  content: '';
 }
 
-.otro-blockquote span{
-display:block;
-color:#333333;
-font-style: normal;
-font-weight: bold;
-margin-top:1em;
+.otro-blockquote span {
+  display: block;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1em;
 }
 
 
@@ -106,6 +104,7 @@ margin-top:1em;
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
 figure.snip0056 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
@@ -118,11 +117,13 @@ figure.snip0056 {
   color: #000000;
   box-shadow: 0px 0px 25px black;
 }
+
 figure.snip0056 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-figure.snip0056 > img {
+
+figure.snip0056>img {
   width: 50%;
   border-radius: 50%;
   /* border: 1px solid #1b1919; */
@@ -136,12 +137,14 @@ figure.snip0056 > img {
   z-index: 1;
   height: 250px;
 }
+
 figure.snip0056 figcaption {
   padding: 20px 30px 20px 20px;
   position: absolute;
   left: 0;
   width: 50%;
 }
+
 figure.snip0056 figcaption h2,
 figure.snip0056 figcaption p {
   margin: 0;
@@ -149,37 +152,45 @@ figure.snip0056 figcaption p {
   padding: 100px 0;
   width: 100%;
 }
+
 figure.snip0056 figcaption h2 {
   font-size: 1.3em;
   font-weight: 300;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 figure.snip0056 figcaption h2 span {
   font-weight: 800;
 }
+
 figure.snip0056 figcaption p {
   font-size: 0.9em;
   opacity: 0.8;
 }
+
 figure.snip0056 figcaption .icons {
   width: 100%;
   text-align: left;
 }
+
 figure.snip0056 figcaption .icons i {
   font-size: 26px;
   padding: 5px;
   top: 50%;
   color: #000000;
 }
+
 figure.snip0056 figcaption a {
   opacity: 0.3;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
+
 figure.snip0056 figcaption a:hover {
   opacity: 0.8;
 }
+
 figure.snip0056 .position {
   width: 100%;
   text-align: left;
@@ -191,17 +202,21 @@ figure.snip0056 .position {
   background: #000000;
   clear: both;
 }
+
 figure.snip0056.blue .position {
   background: #20638f;
 }
+
 figure.snip0056.red .position {
   background: #962d22;
 }
+
 figure.snip0056.yellow .position {
   background: #bf6516;
 }
-figure.snip0056:hover > img,
-figure.snip0056.hover > img {
+
+figure.snip0056:hover>img,
+figure.snip0056.hover>img {
   right: -12%;
 }
 
@@ -222,15 +237,13 @@ figure.snip0056.hover > img {
 
 
 
-.profile-cards
-{
+.profile-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.profile-card
-{
+.profile-card {
   margin: 80px;
   margin-bottom: 20px;
 }

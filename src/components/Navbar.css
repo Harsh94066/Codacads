@@ -31,7 +31,7 @@
 
 div.header-main {
     background-color: #0edb3efa;
-    height: 300px;
+    min-height: 300px;
     color: white;
     text-align: center;
     padding: 45px 15px;
