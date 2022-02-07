@@ -55,7 +55,7 @@ const DSA = () => {
                                     Arrays are defined as the collection of similar type of data items stored at contiguous memory locations.
                                 </li>
                                 <li>
-                                    Refer <a href="https://www.geeksforgeeks.org/array-data-structure/" target="_blank"><span style={{ color: 'blue' }}>this article</span></a> for implementation of arrays, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank"><span style={{ color: 'blue' }}>this playlist</span></a> <b>(from lecture 8.1 to 10)</b>
+                                    Refer <a href="https://www.geeksforgeeks.org/array-data-structure/" target="_blank"><span style={{ color: '#0edb3efa' }}>this article</span></a> for implementation of arrays, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank"><span style={{ color: '#0edb3efa' }}>this playlist</span></a> <b>(from lecture 8.1 to 10)</b>
                                 </li>
                             </ul>
                         </li>
@@ -67,7 +67,7 @@ const DSA = () => {
                                     A linked list can be defined as the collection of the nodes in which one node is connected to another node, and node consists of two parts, i.e., one is the data part and the second one is the address part.
                                 </li>
                                 <li>
-                                    Refer <a href="https://www.geeksforgeeks.org/data-structures/linked-list/" target="_blank"><span style={{ color: 'blue' }}>this article</span></a> for implementation of linked-list, Otherwise you can firstly prefer <a href="" target="_blank"><span style={{ color: 'blue' }}>this basic videos</span></a> <b>(from lecture 2.1 to 2.3)</b> and then <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank">this playlist</a> <b>(from lecture 22.1 to 22.11)</b>
+                                    Refer <a href="https://www.geeksforgeeks.org/data-structures/linked-list/" target="_blank"><span style={{ color: '#0edb3efa' }}>this article</span></a> for implementation of linked-list, Otherwise you can firstly prefer <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank"><span style={{ color: '#0edb3efa' }}>this basic videos</span></a> <b>(from lecture 2.1 to 2.3)</b> and then <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank">this playlist</a> <b>(from lecture 22.1 to 22.11)</b>
                                 </li>
                             </ul>
                         </li>
@@ -82,7 +82,7 @@ const DSA = () => {
                                     Whenever an element is added in the stack, it is added on the top of the stack, and the element can be deleted only from the stack. In other words, a stack can be defined as a container in which insertion and deletion can be done from the one end known as top of the stack.
                                 </li>
                                 <li>
-                                    Refer <a href="https://www.geeksforgeeks.org/stack-data-structure/" target="_blank"><span style={{ color: 'blue' }}>this article</span></a> for implementation of arrays, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank"><span style={{ color: 'blue' }}>this playlist</span></a> <b>(from lecture 23.1 to 23.9)</b>
+                                    Refer <a href="https://www.geeksforgeeks.org/stack-data-structure/" target="_blank"><span style={{ color: '#0edb3efa' }}>this article</span></a> for implementation of arrays, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank"><span style={{ color: '#0edb3efa' }}>this playlist</span></a> <b>(from lecture 23.1 to 23.9)</b>
                                 </li>
                             </ul>
                         </li>
@@ -97,7 +97,7 @@ const DSA = () => {
                                     Queue is referred to be as First In First Out list(FIFO) fashion.For example, people waiting in line for a rail ticket form a queue.
                                 </li>
                                 <li>
-                                    Refer <a href="https://www.geeksforgeeks.org/queue-data-structure/" target="_blank"><span style={{ color: 'blue' }}>this article</span></a> for implementation of arrays, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU" target="_blank"><span style={{ color: 'blue' }}>this playlist</span></a> <b>(from lecture 4.1 to 4.8)</b>
+                                    Refer <a href="https://www.geeksforgeeks.org/queue-data-structure/" target="_blank"><span style={{ color: '#0edb3efa' }}>this article</span></a> for implementation of arrays, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU" target="_blank"><span style={{ color: '#0edb3efa' }}>this playlist</span></a> <b>(from lecture 4.1 to 4.8)</b>
                                 </li>
                             </ul>
                         </li>
@@ -123,7 +123,7 @@ const DSA = () => {
                                     Basically, trees are of various types but generally we prefer <b>Binary trees</b> as well as <b>Binary search trees</b>.
                                 </li>
                                 <li>
-                                    Refer this articles for <a href="https://www.geeksforgeeks.org/binary-tree-data-structure/" target="_blank">Binary trees</a> and for <a href="https://www.geeksforgeeks.org/binary-search-tree-data-structure/" target="_blank"><span style={{ color: 'blue' }}>Binary Search Tree</span></a>, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank"><span style={{ color: 'blue' }}>this playlist</span></a> <b>(from lecture 27.1 to 28.11)</b>
+                                    Refer this articles for <a href="https://www.geeksforgeeks.org/binary-tree-data-structure/" target="_blank">Binary trees</a> and for <a href="https://www.geeksforgeeks.org/binary-search-tree-data-structure/" target="_blank"><span style={{ color: '#0edb3efa' }}>Binary Search Tree</span></a>, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk" target="_blank"><span style={{ color: '#0edb3efa' }}>this playlist</span></a>
                                 </li>
                             </ul>
                         </li>
@@ -135,15 +135,14 @@ const DSA = () => {
                                     A graph G can be defined as an ordered set G(V, E) where V(G) represents the set of vertices and E(G) represents the set of edges which are used to connect these vertices.
                                 </li>
                                 <li>
-                                    Refer <a href="https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/" target="_blank"><span style={{ color: 'blue' }}>this article</span></a> for implementation of graph, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw" target="_blank"><span style={{ color: 'blue' }}>this playlist</span></a>
+                                    Refer <a href="https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/" target="_blank"><span style={{ color: '#0edb3efa' }}>this article</span></a> for implementation of graph, Otherwise you can prefer <a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw" target="_blank"><span style={{ color: '#0edb3efa' }}>this playlist</span></a>
                                 </li>
                             </ul>
                         </li>
 
                     </ul>
                 </section>
-
-            </div >
+            </div>
         </>
     )
 }
